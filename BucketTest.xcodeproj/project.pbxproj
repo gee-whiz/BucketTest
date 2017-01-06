@@ -14,6 +14,12 @@
 		5E1EE0181E1F985A004116A7 /* BucketTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E1EE0161E1F985A004116A7 /* BucketTest.xcdatamodeld */; };
 		5E1EE01A1E1F985A004116A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1EE0191E1F985A004116A7 /* Assets.xcassets */; };
 		5E1EE01D1E1F985A004116A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1EE01B1E1F985A004116A7 /* LaunchScreen.storyboard */; };
+		5E1EE0261E1F9A20004116A7 /* Bucket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1EE0251E1F9A20004116A7 /* Bucket.m */; };
+		5E1EE0291E1F9B08004116A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1EE0281E1F9B08004116A7 /* QuartzCore.framework */; };
+		5E1EE02B1E1F9B13004116A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1EE02A1E1F9B13004116A7 /* UIKit.framework */; };
+		5E1EE02D1E1F9B21004116A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1EE02C1E1F9B21004116A7 /* CoreGraphics.framework */; };
+		5E1EE02F1E1F9BC0004116A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1EE02E1E1F9BC0004116A7 /* Foundation.framework */; };
+		5E1EE0311E1FA542004116A7 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E1EE0301E1FA542004116A7 /* Resource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,13 @@
 		5E1EE0191E1F985A004116A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E1EE01C1E1F985A004116A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E1EE01E1E1F985A004116A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E1EE0241E1F9A20004116A7 /* Bucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bucket.h; sourceTree = "<group>"; };
+		5E1EE0251E1F9A20004116A7 /* Bucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bucket.m; sourceTree = "<group>"; };
+		5E1EE0281E1F9B08004116A7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5E1EE02A1E1F9B13004116A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E1EE02C1E1F9B21004116A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E1EE02E1E1F9BC0004116A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E1EE0301E1FA542004116A7 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Resource.bundle; path = "../../GLMoveToTrashAnimation-master/Animation/Resource.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1EE02F1E1F9BC0004116A7 /* Foundation.framework in Frameworks */,
+				5E1EE02D1E1F9B21004116A7 /* CoreGraphics.framework in Frameworks */,
+				5E1EE02B1E1F9B13004116A7 /* UIKit.framework in Frameworks */,
+				5E1EE0291E1F9B08004116A7 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +63,7 @@
 			children = (
 				5E1EE0091E1F985A004116A7 /* BucketTest */,
 				5E1EE0081E1F985A004116A7 /* Products */,
+				5E1EE0271E1F9B08004116A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +88,8 @@
 				5E1EE01E1E1F985A004116A7 /* Info.plist */,
 				5E1EE0161E1F985A004116A7 /* BucketTest.xcdatamodeld */,
 				5E1EE00A1E1F985A004116A7 /* Supporting Files */,
+				5E1EE0241E1F9A20004116A7 /* Bucket.h */,
+				5E1EE0251E1F9A20004116A7 /* Bucket.m */,
 			);
 			path = BucketTest;
 			sourceTree = "<group>";
@@ -77,9 +97,21 @@
 		5E1EE00A1E1F985A004116A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E1EE0301E1FA542004116A7 /* Resource.bundle */,
 				5E1EE00B1E1F985A004116A7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E1EE0271E1F9B08004116A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E1EE02E1E1F9BC0004116A7 /* Foundation.framework */,
+				5E1EE02C1E1F9B21004116A7 /* CoreGraphics.framework */,
+				5E1EE02A1E1F9B13004116A7 /* UIKit.framework */,
+				5E1EE0281E1F9B08004116A7 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +176,7 @@
 				5E1EE01D1E1F985A004116A7 /* LaunchScreen.storyboard in Resources */,
 				5E1EE01A1E1F985A004116A7 /* Assets.xcassets in Resources */,
 				5E1EE0151E1F985A004116A7 /* Main.storyboard in Resources */,
+				5E1EE0311E1FA542004116A7 /* Resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1EE0261E1F9A20004116A7 /* Bucket.m in Sources */,
 				5E1EE0121E1F985A004116A7 /* ViewController.m in Sources */,
 				5E1EE0181E1F985A004116A7 /* BucketTest.xcdatamodeld in Sources */,
 				5E1EE00F1E1F985A004116A7 /* AppDelegate.m in Sources */,
@@ -314,6 +348,7 @@
 				5E1EE0231E1F985A004116A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
